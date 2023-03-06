@@ -41,7 +41,7 @@ class TestLargetRange(unittest.TestCase):
         result = largestRange(arr)
 
         #assert
-        result == expected, "expecting {}, got {}".format(expected, result)
+        assert result == expected, "expecting {}, got {}".format(expected, result)
 
     def test_a_short_array(self):
         #arrange
@@ -52,7 +52,7 @@ class TestLargetRange(unittest.TestCase):
         result = largestRange(arr)
 
         #assert
-        result == expected, "expecting {}, got {}".format(expected, result)
+        assert result == expected, "expecting {}, got {}".format(expected, result)
 
 
 
