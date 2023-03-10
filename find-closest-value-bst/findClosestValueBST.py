@@ -55,5 +55,6 @@ class TestFindClosesValueBST(unittest.TestCase):
         # assert
         assert value == expected, "value should be {}".format(expected)
 
+
 if __name__ == "__main__":
     unittest.main()
